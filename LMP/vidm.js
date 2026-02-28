@@ -111,7 +111,7 @@
                 }
             } catch (e) { }
 
-           // var title = (card.original_title || card.title || card.name || '').toLowerCase();
+            var title = (card.original_title || card.title || card.name || '').toLowerCase();
             var year = (card.release_date || card.first_air_date || '').substr(0, 4);
 
             if (!title || !year) {
@@ -433,3 +433,4 @@
 
 
 })();
+
