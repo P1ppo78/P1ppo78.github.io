@@ -7,4 +7,4 @@
 
 https://P1ppo78.github.io/LMP/Quality+Mod.js
 
-https://P1ppo78.github.io/LMP/vidm.js
+https://P1ppo78.github.io/LMP/rater.js
