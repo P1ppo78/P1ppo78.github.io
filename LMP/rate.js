@@ -1,3 +1,19 @@
+* Ліхтар Studios2 — плагін головної сторінки (Likhtar Team).
+ * Кастомна головна, стрімінги, студії, підписки на студії, Кіноогляд.
+ */
+(function () {
+    'use strict';
+
+    window.LIKHTAR_STUDIOS_VER = '3.0';
+    window.LIKHTAR_STUDIOS_LOADED = false;
+    window.LIKHTAR_STUDIOS_ERROR = null;
+
+    if (typeof Lampa === 'undefined') {
+        window.LIKHTAR_STUDIOS_ERROR = 'Lampa not found (script loaded before app?)';
+        return;
+    }
+
+
     // =================================================================
     // LIKHTAR QUALITY MARKS (PARSING JACRED + UAFLIX)
     // =================================================================
